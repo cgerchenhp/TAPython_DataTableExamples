@@ -33,7 +33,7 @@ unreal.PythonDataTableLib.add_row(my_datatable, "row_2")
 
 # 5.set the values in "row_1"
 unreal.PythonDataTableLib.set_property_by_string(my_datatable, "row_1", "my_bool_var", "True")
-unreal.PythonDataTableLib.set_property_by_string(my_datatable, "row_1", "my_transform_var1"
+unreal.PythonDataTableLib.set_property_by_string(my_datatable, "row_1", "my_transform_var"
                                                  , "(Rotation=(X=0,Y=0,Z=0,W=1),Translation=(X=1,Y=2,Z=3),Scale3D=(X=1.5,Y=1.5,Z=1.5))"
                                                  )
 unreal.PythonDataTableLib.set_property_by_string(my_datatable, "row_1", "my_mesh_var"
